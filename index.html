@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<head>
+	<title>Practice</title>
+</head>
+<body>
+<style>
+
+	* {
+  		box-sizing: border-box; 
+	}
+
+	body {
+		background-size: cover;
+		background-attachment: fixed;
+		background-image: linear-gradient(rgba(255, 252, 244, 0.3), rgba(228, 228, 245, 0.4));
+		font-size: 20px;
+	}
+
+	a:link, a:visited { 
+    color: white;
+    text-decoration: none;
+	}
+	
+	a:link:, a:visited: { 
+	    color: orange;
+	}
+
+	a {
+	transition: color .5s;
+	}
+
+	a:hover {
+		color:#90EE90;
+		text-shadow: 0px 1px 2px rgba(255,255,255,.5);
+	}
+
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	li a {
+	    display: block;
+	    color: #000;
+	    padding: 8px 16px;
+	    text-decoration: none;
+	    font-size: 1.2em;
+	   	display: inline-block;
+	}
+
+
+	.container1 {
+		display: block;
+		max-width: 500px;
+		margin: 20px auto;
+		box-shadow: 0 2px 5px #1f0a0a;
+		background-color: rgba(220, 56, 56, 0.7);
+		text-align: center;
+		padding-bottom: 20px;
+		border: 1px solid rgba(122, 231, 138, 0.1); 
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 20px;
+	}
+
+	.container1 ul li {
+		padding: 5px;
+	}
+
+	h2 {
+		color: black;
+		font-size: 2em;
+		position: relative;
+		background-color: #bfdc4c;
+		margin: 50px -40px 10px 0px;
+	}
+
+	.container1 h2:after {
+		content: '';
+		display: block;
+		height: 40px;
+		width: 40px;
+		background: url(fold.gif) no-repeat 0 0;
+		position: absolute;
+		right: 0;
+		bottom: -40px;
+	}
+
+	.spanalt {
+		display:block; 
+		font-size:0.7em; 
+		color:rgba(245, 244, 244, 0.96);
+		margin-top: -2px;
+	}
+
+@media only screen and (max-width: 600px) {
+	.container1 {
+		max-width: 250px;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	li a {
+	    display: block;
+	    color: #000;
+	    padding: 3px 8px;
+	    text-decoration: none;
+	    font-size: 0.9em;;
+	}
+
+	.spanalt {
+		font-size: 0.6em;
+	}
+}
+
+</style>
+<div class="container1">
+	<h2>JavaScript practice</h2>
+	<ul>
+		<li><a href="map.html">Find the treasure game</a><span class="spanalt">From the book "A Playful Introduction to Programming"</span></li>
+		<li><a href="2048/index.html">My 2048 game</a><span class="spanalt">Original game: 2048</span></li>
+		<li><a href="LYNDA/crete.html">Countdown to Crete</a><span class="spanalt">From Lynda course</span></li>
+	</ul>
+	<h2>Other</h2>
+	<ul>
+		<li><a href="inkyemail/index.html">Email - Foundation for emails (Inky)</a><span class="spanalt">Udemy course</span></li>
+	</ul>
+</div>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75731833-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
